@@ -1,15 +1,3 @@
-require 'test/unit'
-
-class DiariesControllerTest < Test::Unit::TestCase
-  test "should get index" do
-=begin
-    get '/diaries'
-    assert_response :success
-=end
-  end
-end
-
-=begin
 require 'test_helper'
 
 class DiariesControllerTest < ActionDispatch::IntegrationTest
@@ -58,4 +46,3 @@ class DiariesControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to diaries_url
   end
 end
-=end
